@@ -57,6 +57,7 @@ Gem::Specification.new do |s|
       s.add_runtime_dependency(%q<redis>, [">= 2.0"])
       s.add_runtime_dependency(%q<vegas>, [">= 0.1.0"])
       s.add_runtime_dependency(%q<sinatra>, [">= 1.0"])
+      s.add_runtime_dependency(%q<rack-contrib>)
       s.add_runtime_dependency(%q<multi_json>, [">= 1.0"])
       s.add_development_dependency(%q<shoulda>, [">= 0"])
       s.add_development_dependency(%q<bundler>, ["~> 1.0"])

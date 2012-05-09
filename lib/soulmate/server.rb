@@ -36,6 +36,10 @@ module Soulmate
       })
     end
     
+    post '/add' do
+      
+    end
+    
     not_found do
       content_type 'application/json', :charset => 'utf-8'
       MultiJson.encode({ :error => "not found" })
